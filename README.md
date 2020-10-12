@@ -3,6 +3,8 @@
 Simple Windows screen saver written using Python, the [Python Arcade 2D game library](https://arcade.academy/), and
 the [Arcade Screen Saver Framework](https://github.com/SirGnip/arcade_screensaver_framework)
 
+![Swiveling Arcs Screensaver](https://sirgnip.github.io/repo/swiveling_arcs_screensaver/swiveling_arcs_15fps_40pct.gif)
+
 # Installation
 
     # install
