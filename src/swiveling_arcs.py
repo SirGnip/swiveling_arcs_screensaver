@@ -158,7 +158,7 @@ class SingleScene(BaseScene):
                 position=(random.randint(0, self.screen_width), random.randint(0, self.screen_height))
             )
             seq.add_keyframe(elapsed, key)
-            elapsed += random.uniform(5.0, 20.0)
+            elapsed += random.uniform(15.0, 30.0)
         light.animate(seq)
 
     def draw(self):
@@ -170,15 +170,16 @@ class SingleScene(BaseScene):
 
 
 class RotatingArcsSaver(arcade.Window):
-    def __init__(self, fullscreen, screen):
-        super().__init__(fullscreen=fullscreen, screen=screen)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.curtains = Curtains(self)
         self.curtains.add_scene('single', SingleScene(self))
         self.curtains.set_scene('single')
 
 
 def main():
-    screensaver_framework.main(RotatingArcsSaver)
+    screensaver_framework.create_screensaver_window(RotatingArcsSaver)
+    arcade.run()
 
 
 if __name__ == "__main__":

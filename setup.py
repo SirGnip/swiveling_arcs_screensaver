@@ -29,7 +29,7 @@ setuptools.setup(
         "arcade>=2.4.3",
         "arcade-curtains>=0.2.1",
         # personal dependencies
-        "arcade_screensaver_framework @ http://github.com/SirGnip/arcade_screensaver_framework/tarball/5ed8e2d903750a0577b029292aa7518a78cd9954",
+        "arcade_screensaver_framework @ http://github.com/SirGnip/arcade_screensaver_framework/tarball/v0.0.1",
         "arcade_examples @ http://github.com/SirGnip/arcade_examples/tarball/9047aedd898a1ae0c870da379880cd584e96aee4",
     ],
 )
