@@ -56,7 +56,7 @@ class Arc(Actor):
         self.animate(seq)
 
     def draw(self):
-        arcade.draw_arc_outline(self.x, self.y, self.radius * 2, self.radius * 2, self.color + (self.parent_coil.alpha,), self.start_angle, self.end_angle, self.line_width, self.angle)
+        arcade.draw_arc_outline(self.x, self.y, self.radius * 2, self.radius * 2, self.color + (int(self.parent_coil.alpha),), self.start_angle, self.end_angle, self.line_width, self.angle)
 
     def can_reap(self):
         return False
