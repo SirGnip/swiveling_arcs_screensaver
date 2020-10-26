@@ -27,4 +27,4 @@ the [Arcade Screen Saver Framework](https://github.com/SirGnip/arcade_screensave
 See [Arcade Screen Saver Framework](https://github.com/SirGnip/arcade_screensaver_framework) repo for instructions
 on how to install this screen saver as an official Windows screen saver.  
     
-![Hits](http://cc.amazingcounters.com/counter.php?i=3245844&c=9737845)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FSirGnip%2Fswiveling_arcs_screensaver)
